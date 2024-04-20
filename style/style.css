@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+:root {
+    --primary_color: #FF5588;
+
+}
+
+
+.container {
+    padding: 30px 150px;
+    display: flex;
+}
+
+.profile-img img {
+    width: 300px;
+}
+.profile-img img:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.profile-section {
+
+    width: 25%;
+    margin-top: 80px;
+}
+
+.social-icons {
+cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 120px;
+    margin: 20px 50px;
+}
+
+
+.profile-section button {
+    width: 180px;
+    margin: 10px 57px;
+    padding: 15px 35px;
+    background-color: white;
+    border: 1px solid #333333;
+    border-radius: 10px;
+
+    font-size: 19px;
+}
+.profile-section button:hover{
+    background-color: #FF5588;
+    color: white;
+    cursor: pointer;
+    
+   
+}
+
+.introduction span {
+    color: var(--primary_color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.introduction h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin: 30px 0px;
+
+}
+
+.introduction p {
+    font-size: 20px;
+    color: #333333;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.services .work-about span {
+    color: var(--primary_color);
+    font-size: 50px;
+    line-height: 77px;
+    font-weight: 400px;
+}
+
+.services .work-about p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.about-profile {
+    margin-top: 90px;
+}
+
+.about-profile span {
+    font-size: 24px;
+    color: var(--primary_color);
+
+
+}
+
+.about-profile h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-top: 15px;
+}
+
+.about-profile p {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.profile-career {
+    margin-top: 90px;
+}
+
+.profile-career .career span {
+    color: var(--primary_color);
+    font-size: 24px;
+    line-height: 33px;
+
+
+}
+
+.profile-career .career h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-top: 10px;
+}
+
+.education-exp {
+    margin: 25px 0px;
+}
+
+.profile-career .education-exp span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.profile-career .education-exp h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+
+
+}
+
+.profile-works {
+    margin-top: 85px;
+}
+
+.profile-works .service span {  
+    color: var(--primary_color);
+    font-size: 24px;
+    line-height: 33px;
+
+}
+
+.profile-works .service h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.profile-model {
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.provide-work-1:hover{
+    background-color: var(--primary_color);
+    color: white;
+    cursor: pointer;
+
+}
+.provide-work:hover{
+    background-color: var(--primary_color);
+    color: white;
+    cursor: pointer;
+    
+}
+
+.profile-model .provide-work {
+    border: 1px solid #333333;
+    padding: 20px 30px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.profile-model .provide-work-1 {
+    border: 1px solid #FF5588;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.profile-model .provide-work-1 p {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.profile-model .provide-work p {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.profile-model .provide-work span {
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.profile-skills {
+    margin-top: 85px;
+}
+
+.profile-skills .skill span {
+    color: var(--primary_color);
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.profile-skills .skill h1 {
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.profile-skills .logos {
+
+    margin-top: 45px;
+    
+    justify-content: space-between;
+}
+
+.profile-skills .logos img {
+
+    margin-right: 60px;
+}
+.profile-skills .logos img:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.portfolio {
+    margin-top: 85px;
+}
+
+.portfolio .feature span {
+    color: var(--primary_color);
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.portfolio .feature h2 {
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.images-project{
+    margin-top: 40px;
+}
+.images-project img:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
+.images-project .bottom-2-img img{
+    margin: 20px 10px;
+}
+.testimonial{
+    margin-top: 95px;
+}
+.testimonial .test span{
+    color: var(--primary_color);
+    font-size: 24px;
+    line-height: 33px;
+}
+.testimonial .test h2{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.card{
+    margin-top: 30px;
+    border: 1px solid #333333;
+   width: 800px;
+   padding: 80px 25px;
+   border-radius: 40px;
+    
+
+}
+.profile-card{
+    display: flex;
+    padding-left: 40px;
+    margin-top: 20px;
+  
+
+}
+.profile-card img{
+    margin-right: 25px;
+}
+.card .profile-card span{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    
+}
+.card .profile-card p{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+
+}
+.name{
+    margin-top: 20px;
+}
+.card .bio-card p{
+font-size: 24px;
+line-height: 33px;
+padding-top: 30px;
+padding-left: 40px;
+}
+.card:hover{
+    cursor: pointer;
+    scale: 0.9;
+}
+
+.brand{
+    margin-top: 95px;
+}
+.brand .brand-work span{
+    color: var(--primary_color);
+    font-size: 24px;
+    line-height: 33px;
+}
+.brand .brand-work h2{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.brand .brand-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.brand .brand-logo img:hover{
+    cursor: pointer;
+    scale: 1.1;
+   
+}
+.contact-form{
+    margin-top: 30%;
+}
+.contact-form h2{
+    color: var(--primary_color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 80px;
+}
+.form-inputs{
+    margin: 30px 0px;
+}
+.form-inputs input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #a1a0a0;
+    width: 600px;
+    padding: 8px;
+    margin-top: 40px;
+
+}
+.form-inputs input label{
+font-size: 16px;
+font-weight: 400;
+color: #333333;
+line-height: 22px;
+}
+.message-form textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #a1a0a0;
+    width: 600px;
+    padding: 8px;
+   
+}
+.message-form textarea:focus{
+    outline: none;
+}
+.btn-hire-me{
+    width: 250px;
+   margin-top: 30px;
+    padding: 20px 45px;
+    background-color: white;
+    border: 1px solid #333333;
+    border-radius: 20px;
+     font-size: 19px;
+     font-size: 24px;
+     font-weight: 400;
+     margin-bottom: 50px;
+}
+.btn-hire-me:hover{
+    background-color: #FF5588;
+    color: white;
+    cursor: pointer;
+}
+.form-inputs input:focus{
+    outline: none;
+}
